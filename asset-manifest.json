@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/task-maksi/static/css/main.549da6fc.css",
+    "main.js": "/task-maksi/static/js/main.f79ce901.js",
+    "index.html": "/task-maksi/index.html",
+    "main.549da6fc.css.map": "/task-maksi/static/css/main.549da6fc.css.map",
+    "main.f79ce901.js.map": "/task-maksi/static/js/main.f79ce901.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.549da6fc.css",
+    "static/js/main.f79ce901.js"
+  ]
+}
