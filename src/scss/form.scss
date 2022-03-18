@@ -1,0 +1,90 @@
+.container-form {
+    width: 550px;
+    z-index: 100;
+    background: linear-gradient(to bottom, rgb(105, 204, 171), 50%, rgb(68, 151, 177) );
+    margin: 0 auto;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 3px solid black;
+    border-radius: 3%;
+
+   &__form-user {
+       display: flex;
+       flex-wrap: wrap;
+       position: relative;
+       
+       .btn {
+           width: 23%;
+           margin-right: 2%;
+           height: 45px;
+           font-size: 20px;
+       }
+   }
+    label {
+        width: 44%;
+        margin: 0 6% 5px 0;
+        height: 10%;
+        font-size: 22px;
+    }
+
+    input {
+      width: 100%;
+      height: 10%;
+      margin: 0 0 10px 0;
+      font-size: 19px;
+      padding: 4px 6px;
+      vertical-align: middle;
+      border: 1px solid #b8b3b3;
+      border-radius: 10px;
+    }
+
+    .cl-btn-1 {
+        margin: 0px;
+        position: absolute;
+        display: flex;
+        justify-content: right;
+        right: 2%;
+        top: 2%;
+    }   
+    
+    .cl-btn-1 div {
+        width: 49px;
+        height: 49px;
+        position: absolute;
+        background-image: radial-gradient(#FFF, #93d1a6);
+        border-radius: 50%;
+        transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+        border: 7px solid  #ffbb96;;
+        ;
+        cursor: pointer;
+    }
+    
+    .cl-btn-1 div > span {
+        background-color: #ffbb96;;
+        display: block;
+        height: 9px;
+        border-radius: 6px;
+        transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+        position: absolute;
+        top: 50%;
+        margin-top: -5px;
+        left: 0px;
+        width: 35px;
+    }
+    
+    .cl-btn-1 div > span.left {
+        transform: rotate(45deg);
+        transform-origin: center;
+      }
+      
+      .cl-btn-1 div > span.right {
+          transform: rotate(-45deg);
+          transform-origin: center;
+      }
+      
+      .cl-btn-1 div > span :hover {
+        color: #b6752b;
+      }
+}

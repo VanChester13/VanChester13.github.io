@@ -1,0 +1,81 @@
+.container-table {
+    width: 100%;
+}
+
+.panel__devtools {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, rgba(136, 182, 139, 0.842), 50%, rgba(126, 173, 147, 0.863));
+    padding: 10px;
+    margin: 50px 0 3px 0;
+    border: 3px solid black;
+    border-radius: 20px;  
+    & p {
+        font-size: x-large;
+        margin: 0 0 2% 0;
+    }
+    & input {
+        height: 40%;
+        margin-bottom: 2%;
+        background-color: #ffe1d0;
+    } 
+  }
+  
+.table {
+	width: 100%;
+	border: none;
+	border-collapse:separate;
+    border: 3.5px solid rgb(0, 0, 0);
+    border-radius: 20px 20px 0 0;
+    position: relative;
+
+    &  thead th {
+        font-family: 'Staatliches', cursive;
+        font-weight: bold;
+        text-align: left;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 15px 20px;
+        background: #ffbb96;
+        font-size: 24px;
+    }
+    
+    & thead tr th:first-child {
+        border-radius: 20px 0 0 0;
+    }
+    & thead tr th:last-child {
+        border-radius: 0 20px 0 0;
+    }
+
+    & tbody td {
+        font-family: 'League Spartan', sans-serif;
+        text-align: left;
+        border: none;
+        padding: 10px;
+        font-weight: 500;
+        font-size: 20px;
+        vertical-align: top;
+    }
+    & tbody td:nth-child(3) {
+        display: inline-block;
+        width: 60%;
+        border-radius: 50%;
+        text-align: center;
+        margin: 4% 0 4% 15%;
+        border: 2px solid #000000 ;
+        background: #f1e9d7;
+        font-size: xx-large;
+        padding: 3% 0;
+    }
+
+    & tbody tr:nth-child(odd) {
+        background: linear-gradient(to right, rgba(250, 234, 204, 0.973), 60%,rgb(253, 249, 236));
+    }
+
+    & tbody tr:nth-child(even) {
+        background: #cbd5f3;
+        padding: 0;
+        margin: 0;
+        background: linear-gradient(to left, rgba(250, 234, 204, 0.966), 70%, rgb(253, 249, 236));
+    }
+}
