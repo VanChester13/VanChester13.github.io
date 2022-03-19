@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/task-maksi/static/css/main.549da6fc.css",
-    "main.js": "/task-maksi/static/js/main.f55722de.js",
+    "main.css": "/task-maksi/static/css/main.db0dd8d7.css",
+    "main.js": "/task-maksi/static/js/main.23427a8c.js",
     "index.html": "/task-maksi/index.html",
-    "main.549da6fc.css.map": "/task-maksi/static/css/main.549da6fc.css.map",
-    "main.f55722de.js.map": "/task-maksi/static/js/main.f55722de.js.map"
+    "main.db0dd8d7.css.map": "/task-maksi/static/css/main.db0dd8d7.css.map",
+    "main.23427a8c.js.map": "/task-maksi/static/js/main.23427a8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.549da6fc.css",
-    "static/js/main.f55722de.js"
+    "static/css/main.db0dd8d7.css",
+    "static/js/main.23427a8c.js"
   ]
 }
